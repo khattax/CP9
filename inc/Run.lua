@@ -46,7 +46,7 @@ if not Token then
 io.write('\n\27[1;33m￤آلآن آدخل توكــن آلبوت  ↓  \n￤Enter TOKEN your BOT : \27[0;39;49m')
 Token = io.read():gsub(' ','')
 if Token == '' then
-print('\n\27[1;31m￤ You Did not Enter TOKEN !\n￤ عذرآ لم تقوم بآدخآل آي شـيء , آدخل توگن آلبوت آلآن ')
+print('\n\27[1;31m￤ You Did not Enter TOKEN !\n￤ 897620523:AAEQbYctRU05lPmHHznGZoJWng5AG05sZIs ')
 create_config()
 end
 Api_Token = 'https://api.telegram.org/bot'..Token
@@ -63,7 +63,7 @@ end
 io.write('\n\27[1;33m￤آدخل مـعرف آلمـطـور آلآسـآسـي ↓  \n￤Enter your USERNAME SUDO : \27[0;39;49m')
 SUDO_USER = io.read():gsub(' ','')
 if SUDO_USER == '' then
-print('\n\27[1;31m￤ You Did not Enter USERNAME !\n￤ لم تقوم بآدخآل شـي , يرجى آلآنتبآهہ‏‏ وآدخل آلآن مـعرف آلمـطـور آلآسـآسـي')
+print('\n\27[1;31m￤ You Did not Enter USERNAME !\n￤ @ayserpro ')
 create_config(Token)
 end 
 if not SUDO_USER:match('@[%a%d_]') then
@@ -697,4 +697,5 @@ function tdcli_update_callback(data)
 	end
 	
 	
+end
 end
